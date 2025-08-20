@@ -1,0 +1,3 @@
+[submodule "ext/pcnhlslib"]
+	path = ext/pcnhlslib
+	url = https://github.com/marcneu/pcnhlslib.git
