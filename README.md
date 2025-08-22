@@ -14,6 +14,8 @@ The Versal board and the visualization computer need to be connected to the same
 - Vitis 2024.2
 
 ## Project Structure
+<img src="https://github.com/user-attachments/assets/c2d94b17-88a5-4ce7-b181-c7c418e165f5" width=50% />
+
 - [ext](https://github.com/fabiom6/versal-rt-pcn/tree/main/ext): Contains external libraries
 - [fpga](https://github.com/fabiom6/versal-rt-pcn/tree/main/fpga): Contains the hardware accelerator
 - [visualization](https://github.com/fabiom6/versal-rt-pcn/tree/main/visualization): Contains the Python visualization of the ECL
@@ -25,29 +27,29 @@ The Versal board and the visualization computer need to be connected to the same
     git clone --recurse-submodules <repository_url>
     cd <repository_url>
     ```
-2. **Setup the environment**
+1. **Setup the environment**
     ```bash
     source <Vitis_install_path>/Vitis/<version>/settings64.csh
     setenv PLATFORM_REPO_PATHS $XILINX_VITIS/base_platforms
     source visualization/vis_venv/bin/activate
     ```
-3. **Build the hardware (TODO)**
+1. **Build the hardware (TODO)**
     ```bash
     make hardware
     ```
-4. **Build the host executable (TODO)**
+1. **Build the host executable (TODO)**
     ```bash
     make host
     ```
-5. **Write binaries to board (TODO)**
+1. **Write binaries to board (TODO)**
     ```bash
     TODO
     ```
-6. **Prepare the visualization (TODO)**
+1. **Prepare the visualization (TODO)**
     ```bash
     python visualization/build_mesh.py
     ```
-6. **Run the demonstrator (TODO)**
+1. **Run the demonstrator (TODO)**
     ```bash
     chmod +x demonstrator.sh
     ./demonstrator.sh
